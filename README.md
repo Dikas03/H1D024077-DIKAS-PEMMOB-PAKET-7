@@ -1,17 +1,22 @@
-# flutter_application_1
+# Manajemen Kos (Paket 7)
 
-A new Flutter project.
+Tugas Pemrograman Mobile: aplikasi CRUD data penghuni kos.
 
-## Getting Started
+- Nama: Dikas
+- NIM: H1D024077
 
-This project is a starting point for a Flutter application.
+## Teknologi
+Flutter, Hive (penyimpanan lokal), GetX (state, binding, routes), arsitektur MVC.
 
-A few resources to get you started if this is your first Flutter project:
+## Fitur
+- CRUD penghuni (tambah, tampil, ubah, hapus dengan dialog konfirmasi)
+- Pencarian
+- Validasi form
+- Filter penghuni belum lunas
+- Tombol "Tandai Lunas" dengan dialog konfirmasi
+- Total tunggakan di atas daftar
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Cara menjalankan
+flutter pub get
+flutter test
+flutter run -d chrome --web-port=8080
